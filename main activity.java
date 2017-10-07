@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private void pickRandomnumbers(){
         Random randy = new Random();
-        int rand1 = randy.nextInt(10);
-        int rand2 = randy.nextInt(10);
+        rand1 = randy.nextInt(10);
+        rand2 = randy.nextInt(10);
         Button lbutt = (Button) findViewById(R.id.left_button);
         lbutt.setText(Integer.toString(rand1));
         Button rbutt = (Button) findViewById(R.id.right_button);
